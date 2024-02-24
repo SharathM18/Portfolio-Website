@@ -39,19 +39,16 @@ section {
 @media (min-width: 360px) {
   .container {
     max-width: 360px;
-    border: 2px solid blue;
   }
 }
 @media (min-width: 480px) {
   .container {
     max-width: 480px;
-    border: 2px solid blue;
   }
 }
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
-    border: 2px solid blue;
   }
 
   .btn {
@@ -67,6 +64,5 @@ section {
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    border: 2px solid blue;
   }
 }

@@ -1,0 +1,19 @@
+.footer {
+  padding: 2px;
+  background-color: var(--bg-project);
+}
+
+@media (min-width: 360px) {
+  .btt {
+    font-size: var(--text-sm);
+  }
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+  .btt {
+    font-size: var(--text-base);
+  }
+}
+@media (min-width: 1024px) {
+}

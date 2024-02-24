@@ -8,6 +8,7 @@ import "../styles/components/projects.css";
 import "../styles/components/skills.css";
 import "../styles/components/certificates.css";
 import "../styles/components/contact.css";
+import "../styles/components/footer.css";
 
 import responsiveNsvBar from "./utilities/mobile-nav";
 
