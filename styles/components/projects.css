@@ -1,0 +1,158 @@
+.header {
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-family: var(--font-title);
+  font-weight: 500;
+}
+
+.header > h1 {
+  font-size: var(--text-lg);
+}
+
+.header > h3 {
+  font-size: var(--text-xs);
+}
+
+.project-container {
+  margin: 0 0 10px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 0.8px solid rgb(68, 68, 68);
+  border-radius: 15px;
+  background-color: var(--bg-project);
+}
+
+.project_image {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 180px;
+}
+
+.project-info {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: var(--text-sm);
+  font-family: var(--font-title);
+  font-weight: 400;
+}
+
+.project-description {
+  margin: 5px 0;
+  font-size: var(--text-xs);
+  font-family: var(--font-para);
+  font-weight: 400;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.project-description > ul li {
+  list-style-position: inside;
+}
+
+.tech-stack {
+  font-weight: 600;
+}
+
+.project-links {
+  margin: 5px 0 5px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* xs */
+@media (min-width: 360px) {
+}
+
+/* sm */
+@media (min-width: 480px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+  .header > h1 {
+    font-size: var(--text-xl);
+  }
+
+  .header > h3 {
+    font-size: var(--text-sm);
+  }
+
+  .project-container {
+    margin: 0 0 15px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: var(--bg-project);
+  }
+
+  .project_image {
+    border-radius: 15px 0 0 15px;
+    width: 250px;
+    height: 180px;
+  }
+
+  .project-info {
+    margin: 5px 7px;
+  }
+
+  .project-title {
+    font-size: var(--text-base);
+  }
+
+  .project-description {
+    font-size: var(--text-sm);
+  }
+
+  .project-links {
+    margin: 0 0 0 15px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+  }
+}
+
+/* lg  */
+@media (min-width: 1024px) {
+  .header > h1 {
+    font-size: var(--text-xxl);
+  }
+
+  .header > h3 {
+    font-size: var(--text-base);
+  }
+
+  .project-container {
+    margin: 0 0 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: var(--bg-project);
+  }
+
+  .project_image {
+    width: 300px;
+    height: 180px;
+  }
+
+  .project-info {
+    margin: 10px;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+}
