@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: calc(1em+0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+}
+
+:root {
+  /* background-color */
+  --bg-project: rgb(245, 245, 245);
+
+  /* font-size */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+  --text-xxl: 2.5rem;
+
+  /* font-family */
+  --font-title: "Figtree", sans-serif;
+  --font-para: "Work Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
