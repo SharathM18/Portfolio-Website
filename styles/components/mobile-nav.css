@@ -24,7 +24,7 @@
 
 .mobile-nav-link {
   font-family: var(--font-title);
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
 }
 
 .mobile-nav-link:hover {
