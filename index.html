@@ -9,7 +9,7 @@
     />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, web design, project showcase, career highlights, Portfolio, sharath M Portfolio"
+      content="React, MongoDB, SQL, HTML, CSS, JavaScript, web design, project showcase, career highlights, Portfolio, sharath M Portfolio"
     />
     <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,12 +26,12 @@
       <nav class="nav">
         <h1 class="header-title">Portfolio.</h1>
         <ul class="header-menu">
-          <li class="header-link"><a href="#mobile-nav">Home</a></li>
-          <li class="header-link"><a href="#about">About</a></li>
-          <li class="header-link"><a href="#projects">Projects</a></li>
-          <li class="header-link"><a href="#skills">Skills</a></li>
+          <li class="header-link"><a href="#">Home</a></li>
+          <li class="header-link"><a href="#abouts_links">About</a></li>
+          <li class="header-link"><a href="#projects_links">Projects</a></li>
+          <li class="header-link"><a href="#skills_links">Skills</a></li>
           <li class="header-link">
-            <a href="#certificates">Certificates</a>
+            <a href="#certificates_links">Certificates</a>
           </li>
           <li class="header-link"><a href="#contact">Contact</a></li>
         </ul>
@@ -45,12 +45,14 @@
     <header>
       <nav class="mobile-nav">
         <ul class="mobile-menu">
-          <li class="mobile-nav-link"><a href="#mobile-nav">Home</a></li>
-          <li class="mobile-nav-link"><a href="#about">About</a></li>
-          <li class="mobile-nav-link"><a href="#projects">Projects</a></li>
-          <li class="mobile-nav-link"><a href="#skills">Skills</a></li>
+          <li class="mobile-nav-link"><a href="#">Home</a></li>
+          <li class="mobile-nav-link"><a href="#abouts_links">About</a></li>
           <li class="mobile-nav-link">
-            <a href="#certificates">Certificates</a>
+            <a href="#projects_links">Projects</a>
+          </li>
+          <li class="mobile-nav-link"><a href="#skills_links">Skills</a></li>
+          <li class="mobile-nav-link">
+            <a href="#certificates_links">Certificates</a>
           </li>
           <li class="mobile-nav-link"><a href="#contact">Contact</a></li>
         </ul>
@@ -68,12 +70,12 @@
             Aspiring Front-End Developer | Dedicated Student Eager to Learn and
             Grow in Web Development
           </p>
-          <div class="hero-links">
+          <div class="hero-links" id="abouts_links">
             <a href="https://in.linkedin.com/in/sharathm18" target="_blank"
               ><button class="btn">Linkedin</button></a
             >
             <a
-              href="https://drive.google.com/file/d/1GrLyo4ZUC4EhHPyijjWjsZR8ZotJsfqL/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ic5dREpMpaeLD3aM1nV3DQ91jkLVQo0c/view?usp=sharing"
               target="_blank"
               ><button class="btn btn-dow-resume">Resume</button></a
             >
@@ -101,29 +103,46 @@
               <h1 class="profile-title">Sharath M</h1>
               <h3 class="profile-sub-heading">Front-End Developer</h3>
             </header>
-            <p class="about-description about-box">
-              Hello! I am a recent engineering graduate with a passion for
-              frontend development. Over the past year, I have dedicated myself
-              to mastering key technologies such as HTML, CSS, JavaScript, and
-              React, alongside essential tools like Git/GitHub. My hands-on
-              experience includes designing and developing a responsive
-              portfolio website that showcases my academic projects and
-              technical skills. During my internship at Adverk Technologies, I
-              gained practical experience implementing CRUD functionalities in
-              JavaScript for an HR Management System. Additionally, I explored
-              machine learning concepts at Igeeks Technologies, where I
-              developed a Face Mask Detection system using Python, integrating
-              Logistic Regression and Decision Tree algorithms. My journey into
-              frontend development has been driven by a desire to create
-              intuitive user interfaces and interactive experiences. I am eager
-              to contribute my skills to innovative projects that push the
-              boundaries of web technology.
-            </p>
+            <div class="about-description about-box">
+              <p>
+                I’m a dedicated software engineer with a strong foundation in
+                full-stack web development and a passion for building scalable,
+                efficient solutions. As a Graduate Engineering Trainee at
+                Univision Technologies, I’ve enhanced my skills in frontend and
+                backend development, contributing to the ERPNext payroll process
+                and working extensively with technologies like React,
+                JavaScript, Python, and MongoDB.
+              </p>
+              <p>
+                My internship at Adverk Technologies enabled me to implement key
+                CRUD functionalities for an HR management system, further
+                refining my ability to develop functional and user-friendly
+                applications. These experiences have strengthened my technical
+                expertise, problem-solving skills, and ability to collaborate
+                effectively within cross-functional teams.
+              </p>
+              <p>
+                I graduated with a Bachelor’s in Electronics and Communication
+                Engineering from K.S. Institute of Technology, achieving a CGPA
+                of 8.73. My academic projects, such as an RFID-based attendance
+                management system and a React-based contact management app,
+                demonstrate my capacity for real-world problem-solving and
+                delivering high-quality solutions. I’m also committed to
+                personal growth and teamwork, as reflected in my participation
+                in events like the KSGI 5K Marathon.
+              </p>
+              <p>
+                Certified in web development, I continuously seek to expand my
+                knowledge and stay updated with emerging technologies. I am
+                excited to collaborate on innovative projects, drive impactful
+                solutions, and contribute to the evolving tech landscape.
+              </p>
+            </div>
 
-            <div class="about-links about-box">
+            <div class="about-links about-box" id="projects_links">
               <!-- link-1  -->
               <a
-                href="https://drive.google.com/file/d/1GrLyo4ZUC4EhHPyijjWjsZR8ZotJsfqL/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Ic5dREpMpaeLD3aM1nV3DQ91jkLVQo0c/view?usp=sharing"
                 target="_blank"
                 ><button class="btn">Resume</button></a
               >
@@ -153,22 +172,108 @@
         <!-- project-1  -->
         <div class="project-container">
           <img
-            src="/WeatherFetcher.png"
+            src="/ContactHub_Poster.png"
             alt="project_image"
             class="project_image"
           />
           <div class="project-info">
             <div class="project-title">
-              <h3>Weather Fetcher: Real-Time City Weather Data</h3>
+              <h3>ContactHub: Contact Management App</h3>
             </div>
             <div class="project-description">
               <ul>
                 <li>
-                  Weather Fetcher is a React application that allows users to
-                  retrieve real-time weather data for any city. By entering a
-                  city name, users can get up-to-date information about the
-                  current weather conditions, including temperature, weather
-                  condition, wind speed, humidity, and more.
+                  Developed a React-based Single Page Application (SPA) with
+                  React Router DOM for seamless navigation, including features
+                  like adding, editing, deleting, searching contacts,
+                  pagination, and protected routes.
+                </li>
+                <li>
+                  Integrated Firebase for user authentication, cloud storage,
+                  and profile photo uploads, along with Redux for state
+                  management.
+                </li>
+                <li>
+                  Enhanced user experience with dark/light mode toggle, custom
+                  404 error pages, form validation using React Hook Form and
+                  Zod, and a modular component structure.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <span class="tech-stack">Tech Stack:</span> HTML, CSS,
+                  JavaScript, React, Firebase, Git, GitHub
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/SharathM18/ContactHub.git"
+                target="_blank"
+                ><button class="btn">GitHub</button></a
+              >
+              <a href="https://contact-hub-sharath.vercel.app/" target="_blank"
+                ><button class="btn">Demo</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- project-2  -->
+        <div class="project-container">
+          <img src="/crud.png" alt="project_image" class="project_image" />
+          <div class="project-info">
+            <div class="project-title">
+              <h3>CRUD Operation Application</h3>
+            </div>
+            <div class="project-description">
+              <ul>
+                <li>
+                  This task management application allows users to create, view,
+                  update, and delete tasks. Tasks include a description and a
+                  due date, and are stored in the browser's localStorage for
+                  persistence. The user-friendly interface and responsive design
+                  ensure easy task management across various devices.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <span class="tech-stack">Tech Stack:</span> HTML, CSS,
+                  JavaScript, Git, GitHub
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/SharathM18/CRUD-Operation-Application.git"
+                target="_blank"
+                ><button class="btn">GitHub</button></a
+              >
+              <a
+                href="https://crud-operation-application.vercel.app/"
+                target="_blank"
+                ><button class="btn">Demo</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- project-3  -->
+        <div class="project-container">
+          <img src="/task.png" alt="project_image" class="project_image" />
+          <div class="project-info">
+            <div class="project-title">
+              <h3>Task-Tracker Application</h3>
+            </div>
+            <div class="project-description">
+              <ul>
+                <li>
+                  A Task Tracker application was developed using React. It
+                  features three columns: ToDo, Doing, and Done, to visually
+                  organize tasks based on their status. Users can easily add,
+                  update, and delete tasks and move them across columns as they
+                  progress, providing a clear and intuitive overview of task
+                  management. The app also implements offline fonts for faster
+                  loading and consistent typography. Additionally, it leverages
+                  local storage to save task data in the browser.
                 </li>
               </ul>
               <ul>
@@ -180,88 +285,12 @@
             </div>
             <div class="project-links">
               <a
-                href="https://github.com/SharathM18/Weather-Fetcher.git"
-                target="_blank"
-                ><button class="btn">GitHub</button></a
-              >
-              <a href="https://accurateweathertoday.vercel.app/" target="_blank"
-                ><button class="btn">Demo</button></a
-              >
-            </div>
-          </div>
-        </div>
-        <!-- project-2  -->
-        <div class="project-container">
-          <img src="/tictactoe.png" alt="project_image" class="project_image" />
-          <div class="project-info">
-            <div class="project-title">
-              <h3>Tic-Tac-Toe Game</h3>
-            </div>
-            <div class="project-description">
-              <ul>
-                <li>
-                  Developed a user-friendly Tic Tac Toe game using HTML, CSS,
-                  and JavaScript, showcasing proficiency in event handling, win
-                  patterns, and DOM manipulation.
-                </li>
-                <li>
-                  Ensured code readability and maintainability by organizing the
-                  logic into modular functions.
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <span class="tech-stack">Tech Stack:</span> HTML, CSS,
-                  JavaScript, Git, GitHub
-                </li>
-              </ul>
-            </div>
-            <div class="project-links">
-              <a
-                href="https://github.com/SharathM18/Tic-Tac-Toe-Game.git"
-                target="_blank"
-                ><button class="btn">GitHub</button></a
-              >
-              <a href="https://playtictactoegame.vercel.app/" target="_blank"
-                ><button class="btn">Demo</button></a
-              >
-            </div>
-          </div>
-        </div>
-        <!-- project-3  -->
-        <div class="project-container">
-          <img
-            src="/rock-paper-scissors.png"
-            alt="project_image"
-            class="project_image"
-          />
-          <div class="project-info">
-            <div class="project-title">
-              <h3>Rock-Paper-Scissors Game</h3>
-            </div>
-            <div class="project-description">
-              <ul>
-                <li>
-                  Developed a responsive Rock-Paper-Scissors game using HTML,
-                  CSS, and JavaScript, showcasing proficiency in event handling,
-                  randomization, and DOM manipulation.
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <span class="tech-stack">Tech Stack:</span> HTML, CSS,
-                  JavaScript, Git, GitHub
-                </li>
-              </ul>
-            </div>
-            <div class="project-links">
-              <a
-                href="https://github.com/SharathM18/Rock-Paper-Scissors-Game.git"
+                href="https://github.com/SharathM18/Task-Tracker.git"
                 target="_blank"
                 ><button class="btn">GitHub</button></a
               >
               <a
-                href="https://playrockpaperscissorsgame.vercel.app"
+                href="https://task-tracker-sharathm.vercel.app/"
                 target="_blank"
                 ><button class="btn">Demo</button></a
               >
@@ -295,7 +324,7 @@
                 </li>
               </ul>
             </div>
-            <div class="project-links">
+            <div class="project-links" id="skills_links">
               <a
                 href="https://github.com/SharathM18/RFID-RC522-and-EM-18-Based-Attendance-Management-System.git"
                 target="_blank"
@@ -361,6 +390,10 @@
                 <img src="/sql.svg" alt="SQL logo" class="skill-logo" />
                 <p>SQL</p>
               </div>
+              <div class="skill-content">
+                <img src="/sql.svg" alt="SQL logo" class="skill-logo" />
+                <p>MongoDB</p>
+              </div>
             </div>
           </div>
 
@@ -372,7 +405,7 @@
                 <img src="/git.svg" alt="Git logo" class="skill-logo" />
                 <p>Git</p>
               </div>
-              <div class="skill-content">
+              <div class="skill-content" id="certificates_links">
                 <img src="/github.svg" alt="GitHub logo" class="skill-logo1" />
                 <p>GitHub</p>
               </div>
@@ -447,7 +480,7 @@
     <!-- footer section  -->
     <footer class="footer">
       <div class="header btt">
-        <a href="#header-menu">Back to top</a>
+        <a href="#">Back to top</a>
       </div>
     </footer>
 

@@ -5,9 +5,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-project);
-  position: relative;
-  z-index: 999;
+  /* position: relative; */
+  /* z-index: 999; */
   margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .header-menu {
@@ -21,6 +25,7 @@
 
 .header-link {
   font-family: var(--font-title);
+  font-weight: 600;
 }
 
 @media (min-width: 360px) {
